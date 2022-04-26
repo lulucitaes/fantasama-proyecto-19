@@ -10,14 +10,14 @@ var gameState = "play"
 
 function preload(){
 fantasma1=loadImage("ghost-standing.png")
-balcon1=loadImage("climber-png")
+balcon1=loadImage("climber-png") // ES PUNTO EN LUGAR DE GUIÓN. 
 puerta=loadImage("door.png")
 torre1=loadImage("tower.png")
 }
 
 function setup() {
   createCanvas(600,600);
-  spookySound.loop(); //REPRODUCCIÓN EN BUCLE
+  spookySound.loop(); //REPRODUCCIÓN EN BUCLE  // NO AGREGAMOS EL SONIDO ---- AGREGAR O QUITAR. 
    
   //crear torre 
   torre=createSprite(300,300)
